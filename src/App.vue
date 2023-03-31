@@ -29,6 +29,12 @@ onMounted(() => {
       h('span', { class: 'text-gray-800 dark:text-white mt-1' }, '当然是在新号的5刀用完之后 😎'),
       h('span', { class: 'text-gray-800 dark:text-white mt-1' }, '各位可以考虑去使用官方的chatgpt，那是完全免费的'),
       h('span', { class: 'text-gray-800 dark:text-white mt-1' }, '后续我大概会自费建一个站，毕竟我自己也得用，但是可能不会开放给太多人'),
+      h('span', { class: 'text-gray-800 dark:text-white mt-1' }, '然后我拉了一个关于GPT的V群'),
+      h('span', { class: 'text-gray-800 dark:text-white mt-1' }, ''),
+      h('img', {
+        class: 'w-56 object-cover rounded-md mt-1.5',
+        src: 'https://image.qwq.link/images/2023/03/31/E9006C0B-B957-3530-37A3-9E03B5223E24.jpg',
+      }),
       h('span', { class: 'text-gray-800 font-bold dark:text-white mt-2' }, '之前有V过我cola的同学如果还需要使用的话可以联系我捏'),
       h('img', {
         class: 'w-56 object-cover rounded-md mt-1.5',
