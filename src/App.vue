@@ -15,6 +15,7 @@ onMounted(() => {
       h('span', { class: 'ml-1.5' }, '我决定关闭这个站点了 !!!'),
     ]),
     description: () => h('div', { class: 'flex flex-col' }, [
+      h('span', { class: 'text-gray-800 dark:text-white mt-2' }, '斯密马赛 🥲'),
       h('span', { class: 'text-gray-800 dark:text-white mt-2' }, '18刀额度用完了，重新注册的账号免费额度只有5刀，按照当下的使用量，差不多四天不到就没了 🥲'),
       h('img', {
         class: 'w-full object-cover rounded-md mt-1.5',
@@ -28,8 +29,17 @@ onMounted(() => {
       h('span', { class: 'text-gray-800 dark:text-white mt-1' }, '当然是在新号的5刀用完之后 😎'),
       h('span', { class: 'text-gray-800 dark:text-white mt-1' }, '各位可以考虑去使用官方的chatgpt，那是完全免费的'),
       h('span', { class: 'text-gray-800 dark:text-white mt-1' }, '后续我大概会自费建一个站，毕竟我自己也得用，但是可能不会开放给太多人'),
-      h('span', { class: 'text-gray-800 dark:text-white mt-1' }, '然后我拉了一个关于GPT的qq群'),
-      h('span', { class: 'text-gray-800 dark:text-white mt-1' }, '🐧 227191172'),
+      h('span', { class: 'text-gray-800 dark:text-white mt-1' }, '然后我拉了一个关于GPT的V群'),
+      h('span', { class: 'text-gray-800 dark:text-white mt-1' }, ''),
+      h('img', {
+        class: 'w-56 object-cover rounded-md mt-1.5',
+        src: 'https://image.qwq.link/images/2023/03/31/E9006C0B-B957-3530-37A3-9E03B5223E24.jpg',
+      }),
+      h('span', { class: 'text-gray-800 font-bold dark:text-white mt-2' }, '之前有V过我cola的同学如果还需要使用的话可以联系我捏'),
+      h('img', {
+        class: 'w-56 object-cover rounded-md mt-1.5',
+        src: 'https://image.qwq.link/images/2023/03/31/681A8A87-7450-7F90-D066-DFF0B8CF0C05.jpg',
+      }),
     ]),
     // description: () => h('div', { class: 'flex flex-col' }, [
     //   h('span', { class: 'text-gray-800 dark:text-white' }, '该站域名'),
