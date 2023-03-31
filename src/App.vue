@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { NConfigProvider, NDivider } from 'naive-ui'
+import { NConfigProvider } from 'naive-ui'
 import { h, onMounted } from 'vue'
 import { NaiveProvider } from '@/components/common'
 import { useTheme } from '@/hooks/useTheme'
@@ -26,6 +26,8 @@ onMounted(() => {
       }),
       h('span', { class: 'text-gray-800 dark:text-white mt-4' }, '原本想一直白嫖新号额度来运营这个站，OpenAI改策略了那就没办法了，只有5刀的话申请以及换号都太频繁了，且麻烦，所以我先run了，有缘再见 😎'),
       h('span', { class: 'text-gray-800 dark:text-white mt-1' }, '当然是在新号的5刀用完之后 😎'),
+      h('span', { class: 'text-gray-800 dark:text-white mt-1' }, '各位可以考虑去使用官方的chatgpt，那是完全免费的，不过稍有点麻烦就是了'),
+      h('span', { class: 'text-gray-800 dark:text-white mt-1' }, '后续我大概会自费建一个站，毕竟我自己也得用，但是可能不会开放给太多人 🥲'),
       h('span', { class: 'text-gray-800 dark:text-white mt-1' }, '然后我拉了一个关于GPT的qq群'),
       h('span', { class: 'text-gray-800 dark:text-white mt-1' }, '🐧 227191172'),
     ]),
